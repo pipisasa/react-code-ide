@@ -1,0 +1,35 @@
+.Editor{
+  position: relative;
+}
+.Editor__SubmitBtn{
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  text-transform: uppercase;
+  background: transparent;
+  border: 3px solid;
+  padding: 7px 15px;
+  border-radius: 100px;
+  color: #15bc8f;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  z-index: 100;
+
+  margin: 10px;
+}
+
+.Editor__SubmitBtn:focus,
+.Editor__SubmitBtn:hover{
+  background-color: #15bc8f;
+  color: black;
+  border-color: #15bc8f;
+}
+
+.Editor__Ace{
+  height: 100% !important;
+  width: 100% !important;
+}

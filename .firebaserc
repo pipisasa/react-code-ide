@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "glowing-service-274512",
+    "makers-courses": "glowing-service-274512"
+  },
+  "targets":{
+    "glowing-service-274512": {
+      "hosting": {
+        "tasks": [
+          "makers-tasks"
+        ]
+      }
+    }
+  }
+}

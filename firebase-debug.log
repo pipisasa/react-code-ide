@@ -1,0 +1,13 @@
+[debug] [2021-03-23T05:00:35.014Z] ----------------------------------------------------------------------
+[debug] [2021-03-23T05:00:35.015Z] Command:       /usr/local/bin/firebase /Users/pipi/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2021-03-23T05:00:35.016Z] CLI Version:   8.4.3
+[debug] [2021-03-23T05:00:35.016Z] Platform:      darwin
+[debug] [2021-03-23T05:00:35.016Z] Node Version:  v12.16.1
+[debug] [2021-03-23T05:00:35.017Z] Time:          Tue Mar 23 2021 11:00:35 GMT+0600 (GMT+06:00)
+[debug] [2021-03-23T05:00:35.017Z] ----------------------------------------------------------------------
+[debug] [2021-03-23T05:00:35.017Z] 
+[debug] [2021-03-23T05:00:35.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-23T05:00:35.029Z] > authorizing via signed-in user
+[debug] [2021-03-23T05:00:35.030Z] [iam] checking project glowing-service-274512 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-03-23T05:00:35.032Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/glowing-service-274512:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
